@@ -7,4 +7,9 @@ setColor.addEventListener('click', (e) => {
     brush.style.backgroundColor = color
 })
 
+for (let i = 0; i <= 20; i ++) {
+    let square = document.createElement('div')
+    square.className = 'square'
+    document.getElementsByTagName('body')[0].appendChild(square)
+}
 
