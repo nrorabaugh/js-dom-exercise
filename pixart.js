@@ -14,7 +14,7 @@ for (let i = 0; i < 8000; i++) {
     document.getElementsByTagName('body')[0].appendChild(square)
 }
 
-body.style.margin = '0px'
+
 
 let squarez = document.getElementsByClassName('square')
 for (let i = 0; i < squarez.length; i++) {
